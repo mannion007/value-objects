@@ -1,0 +1,22 @@
+{
+    "name": "mannion007/value-objects",
+    "description": "A collection of generic value objects",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "James Mannion",
+            "email": "mannion007@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Mannion007\\ValueObjects\\": "src"
+        }
+    },
+    "require-dev": {
+        "php": ">=7.1",
+        "phpspec/phpspec": "^3.2",
+        "squizlabs/php_codesniffer": "^2.8"
+    }
+}
